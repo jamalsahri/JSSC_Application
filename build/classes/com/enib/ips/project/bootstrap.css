@@ -1,0 +1,80 @@
+.root {
+
+  /* bootstrap */
+  -primary   : #4285f4;
+  -info      : #33B5E5;
+  -success   : #02C852;
+  -warning   : #FF8800;
+  -danger    : #FF3547;
+  -secondary : #AA66CC;
+  -unique    : #880E4F;
+  -elegant   : #2E2E2E;
+
+  /* Theme */
+  -brown       : #795548;
+  -red         : -danger;
+  -grapefruit  : #ED5565;
+  -bittersweet : #FC6E51;
+  -deep-orange : #FF7043;
+  -orange      : -warning;
+  -amber       : #FFA000;
+  -sunflower   : #FFCE54;
+  -yellow      : #ffeb3b;
+  -lime        :  #cddc39;
+  -grass       : #A0D468;
+  -green       : -success;
+  -mint        : #48CFAD;
+  -teal        : -base;
+  -cyan        : #00BCD4;
+  -aqua        : #4FC1E9;
+  -blue-jeans  : #5D9CEC;
+  -blue        : -primary;
+  -indigo      : #3F51B5;
+  -purple      : -secondary;
+  -deep-purple : #512DA8;
+  -lavander    : #AC92EC;
+  -pink        : #EC407A;
+  -pink-rose   : #EC87C0;
+  -light-gray  : #E6E9ED;
+  -medium-gray : #AAB2BD;
+  -dark-gray   : #656D78;
+  -blue-gray   :  #78909C;
+  -light-green : #8BC34A;
+  -light-blue : #82B1FF;
+  -gray : #8e8e8e;
+
+  /*Social color*/
+  -facebook  : #3b5998;
+  -twitter   : #55acee;
+  -google    : #dd4b39;
+  -linkedin  : #0082ca;
+  -instagram : #2e5e86;
+  -pinterest : #c61118;
+  -youtube   : #ed302f; /* Falta */
+
+  -base             : #2BBBAD;
+  -box-base         : transparent;
+  -box-text-color   : -dark-gray;
+  -box-fill         : -dark-gray;
+  -track-fill       : -light-gray;
+  -background-color : white;
+  -highlight-text   : -medium-gray;
+
+  -default-border   : -dark-gray;
+  -highlight-border : -base;
+  -icon-color       : -dark-gray;
+  -text-color       : -dark-gray;
+  -separator-color  : -light-gray;
+
+   -scroll-thumb : derive(#ddd, -10%);
+   -scroll-track : white;
+
+   CHART_COLOR_1: -danger;
+   CHART_COLOR_2: -pink;
+   CHART_COLOR_3: -secondary;
+   CHART_COLOR_4: -primary;
+   CHART_COLOR_5: -info;
+   CHART_COLOR_6: -mint;
+   CHART_COLOR_7: -success;
+   CHART_COLOR_8: -yellow;
+}

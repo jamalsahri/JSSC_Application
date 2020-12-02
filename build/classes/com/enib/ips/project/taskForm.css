@@ -1,0 +1,100 @@
+.rt{
+	-fx-background-color:#1f2027;
+	/*-fx-border-color:#2E2E2E;*/
+	-fx-border-radius:5px;
+}
+
+.text-field{
+	-fx-background-color:#1f2027;
+	-fx-border-color:#2E2E2E;
+	-fx-border-radius:5px;
+	-fx-text-fill:#AAB2BD;
+	-fx-prompt-text-fill:#4d4d4d;
+	-fx-font-weight:bold;
+}
+.text-field:focused{
+	-fx-border-color:#AA66CC;
+	-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 12, 0.0 , 0 , 8 );
+	-fx-padding-top: 10px;
+	-fx-padding-bottom: 10px;
+	-fx-padding-right: 10px;
+	-fx-padding-left: 10px;
+}
+
+.btn-done{
+	-fx-background-color:#4285f4;
+	-fx-background-radius:5px;
+	-fx-border-color:#AA66CC;
+	-fx-font-size : 10px;
+	-fx-text-fill:white;
+	-fx-border-radius:5px;
+	-fx-prompt-text-fill:#4d4d4d;
+	-fx-font-weight:bold;
+}
+
+.btn-done:hover{
+	-fx-scale-x : 1.025;
+    -fx-scale-y : 1.025;
+    -fx-cursor : hand;
+}
+
+.btn-cancel{
+	-fx-background-color:#1f2027;
+	-fx-border-color:#2E2E2E;
+	-fx-font-size : 10px;
+	-fx-text-fill:#8e8e8e;
+	-fx-border-radius:5px;
+	-fx-prompt-text-fill:#4d4d4d;
+	-fx-font-weight:bold;
+}
+
+.btn-cancel:hover{
+	-fx-scale-x : 1.025;
+    -fx-scale-y : 1.025;
+    -fx-cursor : hand;
+}
+
+
+
+
+.text-area{
+	-fx-border-color:#2E2E2E;
+	-fx-background-color:#1f2027;
+	-fx-border-radius:5px;
+	-fx-background-radius:5px;
+	-fx-text-fill:#AAB2BD;
+	-fx-prompt-text-fill:#4d4d4d;
+	-fx-font-weight:bold;
+}
+
+.text-area:focused{
+	-fx-border-color:#AA66CC;
+}
+
+
+
+.text-area .scroll-pane { 
+	-fx-border-color:#1f2027;
+	-fx-background-color:#1f2027;
+	-fx-border-radius:5px;
+	-fx-background-radius:5px;
+}
+
+.text-area .content{
+	-fx-border-color:#1f2027;
+   	-fx-background-color:#1f2027;
+}
+
+
+.radio-button {
+	-fx-font-weight:bold;
+  	-fx-text-fill : #AAB2BD;
+    -fx-selected-color: yellow;
+    -fx-unselected-color: blue;
+    -fx-cursor : hand;
+}
+
+
+
+
+

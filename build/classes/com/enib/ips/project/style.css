@@ -1,0 +1,106 @@
+.root
+{
+	-fx-background-color:#1f2027;
+}
+
+.combo-box{
+	-jfx-unfocus-color:#3b3d43;
+	-jfx-focus-color:#255e8d;
+	-fx-text-fill:#4d4d4d;
+	-fx-prompt-text-fill:#4d4d4d;
+	-fx-font-weight:bold;
+}
+.text-field{
+	-fx-text-fill:#4d4d4d;
+	-fx-prompt-text-fill:#4d4d4d;
+	-fx-font-weight:bold;
+}
+.connection-state-lbl:hover{
+	-fx-background-color:white;
+	-fx-scale-x : 1.09;
+    -fx-scale-y : 1.09;
+}
+
+.button-start-connection{
+	-fx-text-fill:white;
+	-fx-background-color:  #125bed;
+	-fx-background-radius:5;
+	-fx-border-radius:5;
+}
+
+.button-start-connection:hover{
+	-fx-background-color: #1647a8;
+	-fx-scale-x : 1.05;
+    -fx-scale-y : 1.05;
+    -fx-cursor : hand;
+}
+
+.button-stop-connection{
+	-fx-text-fill:#1f1f20;
+	-fx-background-color:white;
+	-fx-background-radius:5;
+	-fx-border-radius:5;
+}
+
+.button-stop-connection:hover{
+	-fx-background-color: #f0e6e6;
+	-fx-scale-x : 1.05;
+    -fx-scale-y : 1.05;
+    -fx-cursor : hand;
+}
+
+.scale:hover{
+	-fx-background-color: #3b3d4350;
+	-fx-background-radius: 5;
+	-fx-scale-x : 0.95;
+    -fx-scale-y : 0.95;
+}
+
+.bottom-description:hover{
+	-fx-text-fill: #acb3bb;
+}
+
+
+.chart {
+    -fx-padding: 10px;
+}
+.chart-content {
+    -fx-padding: 30px;
+    
+}
+.chart-legend {
+	-fx-text-fill: #878990;
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: #878990;
+}
+.chart-plot-background {
+    -fx-background-color: #1f2027;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #3278fa;
+}
+
+.tab{
+	-fx-background-color:#1f2027;
+	-fx-pref-width:200;
+	-fx-pref-height:40;
+}
+.tab-header-background{
+	-fx-background-color:#1f2027;
+}
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+ /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overridden as 5 2 0 0 */
+}
